@@ -1,0 +1,67 @@
+2022-08-22 10:26:17.125  INFO [ProcessPensionService,,] 12484 --- [restartedMain] .c.ProcessPensionMicroserviceApplication : Starting ProcessPensionMicroserviceApplication using Java 17.0.3 on Reina with PID 12484 (D:\ADM FSE0\PensionManagementSystem-master\process-pension-microservice\target\classes started by acer in D:\ADM FSE0\PensionManagementSystem-master\process-pension-microservice)
+2022-08-22 10:26:17.130  INFO [ProcessPensionService,,] 12484 --- [restartedMain] .c.ProcessPensionMicroserviceApplication : No active profile set, falling back to default profiles: default
+2022-08-22 10:26:17.194  INFO [ProcessPensionService,,] 12484 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-22 10:26:17.203  INFO [ProcessPensionService,,] 12484 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-22 10:26:19.462  INFO [ProcessPensionService,,] 12484 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-22 10:26:19.504  INFO [ProcessPensionService,,] 12484 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interfaces.
+2022-08-22 10:26:19.779  INFO [ProcessPensionService,,] 12484 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d6672b85-47b4-34a5-8629-bc12b9886bc3
+2022-08-22 10:26:20.501  INFO [ProcessPensionService,,] 12484 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9084 (http)
+2022-08-22 10:26:20.515  INFO [ProcessPensionService,,] 12484 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-22 10:26:20.515  INFO [ProcessPensionService,,] 12484 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2022-08-22 10:26:20.623  INFO [ProcessPensionService,,] 12484 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-22 10:26:20.623  INFO [ProcessPensionService,,] 12484 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3419 ms
+2022-08-22 10:26:20.685  INFO [ProcessPensionService,,] 12484 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-08-22 10:26:20.853  INFO [ProcessPensionService,,] 12484 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-08-22 10:26:20.859  INFO [ProcessPensionService,,] 12484 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testDB'
+2022-08-22 10:26:21.194  INFO [ProcessPensionService,,] 12484 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-22 10:26:21.257  INFO [ProcessPensionService,,] 12484 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-08-22 10:26:21.404  INFO [ProcessPensionService,,] 12484 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-22 10:26:21.522  INFO [ProcessPensionService,,] 12484 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-08-22 10:26:22.018  INFO [ProcessPensionService,,] 12484 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-22 10:26:22.053  INFO [ProcessPensionService,,] 12484 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-22 10:26:22.112  WARN [ProcessPensionService,,] 12484 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-08-22 10:26:22.619  WARN [ProcessPensionService,,] 12484 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-22 10:26:25.528  INFO [ProcessPensionService,,] 12484 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9084 (http) with context path ''
+2022-08-22 10:26:25.753  INFO [ProcessPensionService,,] 12484 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-08-22 10:26:25.766  INFO [ProcessPensionService,,] 12484 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-08-22 10:26:25.774  INFO [ProcessPensionService,,] 12484 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-08-22 10:26:25.950  INFO [ProcessPensionService,,] 12484 --- [restartedMain] .c.ProcessPensionMicroserviceApplication : Started ProcessPensionMicroserviceApplication in 9.337 seconds (JVM running for 10.197)
+2022-08-22 10:28:14.738  INFO [ProcessPensionService,,] 12484 --- [http-nio-9084-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-22 10:28:14.738  INFO [ProcessPensionService,,] 12484 --- [http-nio-9084-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-22 10:28:14.740  INFO [ProcessPensionService,,] 12484 --- [http-nio-9084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-08-22 10:28:14.816  INFO [ProcessPensionService,4d1f9d61ffb36f89,4d1f9d61ffb36f89] 12484 --- [http-nio-9084-exec-2] c.c.controller.ProcessPensionController  : STARTED - doLogin
+2022-08-22 10:28:15.752  INFO [ProcessPensionService,4d1f9d61ffb36f89,4d1f9d61ffb36f89] 12484 --- [http-nio-9084-exec-2] c.c.controller.ProcessPensionController  : END - doLogin
+2022-08-22 10:28:32.081  INFO [ProcessPensionService,796d8fbad2a3c773,796d8fbad2a3c773] 12484 --- [http-nio-9084-exec-4] c.c.controller.ProcessPensionController  : STARTED - allDetail
+2022-08-22 10:28:32.631 ERROR [ProcessPensionService,796d8fbad2a3c773,796d8fbad2a3c773] 12484 --- [http-nio-9084-exec-4] c.c.controller.ProcessPensionController  : EXCEPTION - allDetail
+2022-08-22 10:28:32.632  INFO [ProcessPensionService,796d8fbad2a3c773,796d8fbad2a3c773] 12484 --- [http-nio-9084-exec-4] c.c.exception.ControllerAdviceClass      : START
+2022-08-22 10:28:32.679  INFO [ProcessPensionService,796d8fbad2a3c773,796d8fbad2a3c773] 12484 --- [http-nio-9084-exec-4] c.c.exception.ControllerAdviceClass      : END
+2022-08-22 10:28:32.683  WARN [ProcessPensionService,796d8fbad2a3c773,796d8fbad2a3c773] 12484 --- [http-nio-9084-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cognizant.exception.ProcessPensionException: Pensioner Detail not coreect]
+2022-08-22 10:28:32.688  INFO [ProcessPensionService,38511a9eb92b7592,38511a9eb92b7592] 12484 --- [http-nio-9084-exec-5] c.c.controller.ProcessPensionController  : STARTED - allDetail
+2022-08-22 10:28:32.771 ERROR [ProcessPensionService,38511a9eb92b7592,38511a9eb92b7592] 12484 --- [http-nio-9084-exec-5] c.c.controller.ProcessPensionController  : EXCEPTION - allDetail
+2022-08-22 10:28:32.771  INFO [ProcessPensionService,38511a9eb92b7592,38511a9eb92b7592] 12484 --- [http-nio-9084-exec-5] c.c.exception.ControllerAdviceClass      : START
+2022-08-22 10:28:32.771  INFO [ProcessPensionService,38511a9eb92b7592,38511a9eb92b7592] 12484 --- [http-nio-9084-exec-5] c.c.exception.ControllerAdviceClass      : END
+2022-08-22 10:28:32.772  WARN [ProcessPensionService,38511a9eb92b7592,38511a9eb92b7592] 12484 --- [http-nio-9084-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cognizant.exception.ProcessPensionException: Pensioner Detail not coreect]
+2022-08-22 10:40:29.402  INFO [ProcessPensionService,1f4a2414b1704640,1f4a2414b1704640] 12484 --- [http-nio-9084-exec-7] c.c.controller.ProcessPensionController  : STARTED - doLogin
+2022-08-22 10:40:47.826  INFO [ProcessPensionService,929df81573daa718,929df81573daa718] 12484 --- [http-nio-9084-exec-8] c.c.controller.ProcessPensionController  : STARTED - doLogin
+2022-08-22 10:41:07.057  INFO [ProcessPensionService,1f4a2414b1704640,1f4a2414b1704640] 12484 --- [http-nio-9084-exec-7] c.c.controller.ProcessPensionController  : END - doLogin
+2022-08-22 10:41:07.056  INFO [ProcessPensionService,929df81573daa718,929df81573daa718] 12484 --- [http-nio-9084-exec-8] c.c.controller.ProcessPensionController  : END - doLogin
+2022-08-22 10:42:18.058  INFO [ProcessPensionService,6f66a8c92066289d,6f66a8c92066289d] 12484 --- [http-nio-9084-exec-1] c.c.controller.ProcessPensionController  : STARTED - allDetail
+2022-08-22 10:42:42.747 ERROR [ProcessPensionService,6f66a8c92066289d,6f66a8c92066289d] 12484 --- [http-nio-9084-exec-1] c.c.controller.ProcessPensionController  : EXCEPTION - allDetail
+2022-08-22 10:42:43.431  INFO [ProcessPensionService,6f66a8c92066289d,6f66a8c92066289d] 12484 --- [http-nio-9084-exec-1] c.c.exception.ControllerAdviceClass      : START
+2022-08-22 10:42:43.478  INFO [ProcessPensionService,6f66a8c92066289d,6f66a8c92066289d] 12484 --- [http-nio-9084-exec-1] c.c.exception.ControllerAdviceClass      : END
+2022-08-22 10:42:43.580  WARN [ProcessPensionService,6f66a8c92066289d,6f66a8c92066289d] 12484 --- [http-nio-9084-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cognizant.exception.ProcessPensionException: Pensioner Detail not coreect]
+2022-08-22 10:42:47.807  INFO [ProcessPensionService,fca5aa4589d5b423,fca5aa4589d5b423] 12484 --- [http-nio-9084-exec-2] c.c.controller.ProcessPensionController  : STARTED - allDetail
+2022-08-22 10:42:49.220  INFO [ProcessPensionService,6de91f3c272c3167,6de91f3c272c3167] 12484 --- [http-nio-9084-exec-3] c.c.controller.ProcessPensionController  : STARTED - allDetail
+2022-08-22 10:42:53.440 ERROR [ProcessPensionService,fca5aa4589d5b423,fca5aa4589d5b423] 12484 --- [http-nio-9084-exec-2] c.c.controller.ProcessPensionController  : EXCEPTION - allDetail
+2022-08-22 10:42:53.496  INFO [ProcessPensionService,fca5aa4589d5b423,fca5aa4589d5b423] 12484 --- [http-nio-9084-exec-2] c.c.exception.ControllerAdviceClass      : START
+2022-08-22 10:42:53.496  INFO [ProcessPensionService,fca5aa4589d5b423,fca5aa4589d5b423] 12484 --- [http-nio-9084-exec-2] c.c.exception.ControllerAdviceClass      : END
+2022-08-22 10:42:53.515  WARN [ProcessPensionService,fca5aa4589d5b423,fca5aa4589d5b423] 12484 --- [http-nio-9084-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cognizant.exception.ProcessPensionException: Pensioner Detail not coreect]
+2022-08-22 10:42:54.901 ERROR [ProcessPensionService,6de91f3c272c3167,6de91f3c272c3167] 12484 --- [http-nio-9084-exec-3] c.c.controller.ProcessPensionController  : EXCEPTION - allDetail
+2022-08-22 10:42:54.902  INFO [ProcessPensionService,6de91f3c272c3167,6de91f3c272c3167] 12484 --- [http-nio-9084-exec-3] c.c.exception.ControllerAdviceClass      : START
+2022-08-22 10:42:54.902  INFO [ProcessPensionService,6de91f3c272c3167,6de91f3c272c3167] 12484 --- [http-nio-9084-exec-3] c.c.exception.ControllerAdviceClass      : END
+2022-08-22 10:42:54.903  WARN [ProcessPensionService,6de91f3c272c3167,6de91f3c272c3167] 12484 --- [http-nio-9084-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cognizant.exception.ProcessPensionException: Pensioner Detail not coreect]
+2022-08-22 10:42:57.351  INFO [ProcessPensionService,514358c9278bab43,514358c9278bab43] 12484 --- [http-nio-9084-exec-4] c.c.controller.ProcessPensionController  : STARTED - allDetail
+2022-08-22 10:43:03.720 ERROR [ProcessPensionService,514358c9278bab43,514358c9278bab43] 12484 --- [http-nio-9084-exec-4] c.c.controller.ProcessPensionController  : EXCEPTION - allDetail
+2022-08-22 10:43:03.721  INFO [ProcessPensionService,514358c9278bab43,514358c9278bab43] 12484 --- [http-nio-9084-exec-4] c.c.exception.ControllerAdviceClass      : START
+2022-08-22 10:43:03.721  INFO [ProcessPensionService,514358c9278bab43,514358c9278bab43] 12484 --- [http-nio-9084-exec-4] c.c.exception.ControllerAdviceClass      : END
+2022-08-22 10:43:03.742  WARN [ProcessPensionService,514358c9278bab43,514358c9278bab43] 12484 --- [http-nio-9084-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.cognizant.exception.ProcessPensionException: Pensioner Detail not coreect]

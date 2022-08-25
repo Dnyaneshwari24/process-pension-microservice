@@ -5,6 +5,6 @@ Resources :
       Properties :
         TaskDefinition : "arn:aws:ecs:ap-south-1:860061945305:task-definition/process-pension-td:1"
         LoadBalancerInfo :
-          ContainerName : "proces-pension-service"
+          ContainerName : "process-pension-service"
           ContainerPort : "7000"
         PlatformVersion : "LATEST"

@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestHeader;
 
 import com.cognizant.model.AuthRequest;
 
-@FeignClient(name = "authorizationService",url = "http://localhost:9090")
+@FeignClient(name = "authorizationService",url = "http://localhost:8000")
 public interface AuthorizationClient {
 	
 	@PostMapping("/authenticate")

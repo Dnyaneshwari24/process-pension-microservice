@@ -3,8 +3,8 @@ Resources :
   - TargetService :
       Type : AWS::ECS::Service
       Properties :
-        TaskDefinition : "arn:aws:ecs:ap-south-1:860061945305:task-definition/authorization-service:16"
+        TaskDefinition : "arn:aws:ecs:ap-south-1:860061945305:task-definition/process-pension-td:1"
         LoadBalancerInfo :
-          ContainerName : "authorization-service"
-          ContainerPort : "8000"
+          ContainerName : "proces-pension-service"
+          ContainerPort : "7000"
         PlatformVersion : "LATEST"
